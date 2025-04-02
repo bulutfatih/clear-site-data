@@ -1,0 +1,11 @@
+{
+  "name": "clear-site-data",
+  "version": "1.0.0",
+  "description": "Chrome extension to clear site data of the current tab",
+  "scripts": {
+    "build": "mkdir -p dist && cp manifest.json background.js popup.html popup.js dist/ && cp -r icons dist/",
+    "zip": "cd dist && zip -r ../clear-site-data.zip *"
+  },
+  "author": "",
+  "license": "MIT"
+} 
