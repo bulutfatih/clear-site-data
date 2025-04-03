@@ -3,48 +3,75 @@
 
 <head>
     <title>Clear Site Data</title>
-    <style>
-        body {
-            width: 250px;
-            padding: 15px;
-            font-family: system-ui, -apple-system, sans-serif;
-        }
-
-        .buttons {
-            margin-top: 15px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        button {
-            padding: 8px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        #confirm {
-            background-color: #e74c3c;
-            color: white;
-        }
-
-        #cancel {
-            background-color: #f1f1f1;
-        }
-
-        h3 {
-            margin-top: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="popup.css">
 </head>
 
 <body>
     <h3>Clear Site Data</h3>
-    <div id="message">Loading...</div>
-    <div class="buttons">
-        <button id="cancel">Cancel</button>
-        <button id="confirm">Clear Data</button>
+    <div id="hostname"></div>
+
+    <button id="selectAll">Select All</button>
+
+    <div class="options">
+        <label class="checkbox-item">
+            <div class="checkbox-container">
+                <input type="checkbox" id="cache">
+                <span class="checkmark"></span>
+            </div>
+            <span class="checkbox-label">
+                Cache
+                <span class="option-info">Takes longer</span>
+            </span>
+        </label>
+
+        <label class="checkbox-item">
+            <div class="checkbox-container">
+                <input type="checkbox" id="cacheStorage">
+                <span class="checkmark"></span>
+            </div>
+            <span class="checkbox-label">Cache Storage</span>
+        </label>
+
+        <label class="checkbox-item">
+            <div class="checkbox-container">
+                <input type="checkbox" id="cookies">
+                <span class="checkmark"></span>
+            </div>
+            <span class="checkbox-label">Cookies</span>
+        </label>
+
+        <label class="checkbox-item">
+            <div class="checkbox-container">
+                <input type="checkbox" id="indexedDB">
+                <span class="checkmark"></span>
+            </div>
+            <span class="checkbox-label">IndexedDB</span>
+        </label>
+
+        <label class="checkbox-item">
+            <div class="checkbox-container">
+                <input type="checkbox" id="localStorage">
+                <span class="checkmark"></span>
+            </div>
+            <span class="checkbox-label">Local Storage</span>
+        </label>
+
+        <label class="checkbox-item">
+            <div class="checkbox-container">
+                <input type="checkbox" id="serviceWorkers">
+                <span class="checkmark"></span>
+            </div>
+            <span class="checkbox-label">Service Workers</span>
+        </label>
     </div>
+
+    <div class="footer">
+        <button id="clear" class="button button--clear">Clear Data</button>
+        <button id="refreshButton" class="button button--refresh">Refresh Page</button>
+        <div id="status" class="status hidden"></div>
+    </div>
+
+
     <script src="popup.js"></script>
 </body>
 

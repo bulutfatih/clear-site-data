@@ -1,13 +1,15 @@
 # Clear Site Data Extension
 
-A simple Chrome extension that clears site data for the current tab when you click on the extension icon.
+A Chrome extension that clears site data for the current tab with customizable options.
 
 ## Features
 
 - Clears site data for the current tab only
-- Asks for confirmation before clearing data
-- Uses minimal permissions (activeTab, browsingData, and notifications)
-- Simple popup UI for confirmation
+- Allows selecting which types of data to clear
+- Remembers your preferences for next use
+- Shows clearing status
+- Supports dark mode and light mode (follows system preference)
+- Simple UI
 
 ## Building and Installing
 
@@ -21,14 +23,25 @@ A simple Chrome extension that clears site data for the current tab when you cli
 
 1. Navigate to a website
 2. Click the extension icon to open the popup
-3. Click "Clear Data" to confirm and clear the site data
-4. A notification will appear when the data has been cleared
+3. Select which data types you want to clear (or use Select All)
+4. Click "Clear Data" to clear the selected site data
+5. The popup will show a status indicating success or failure
+
+## Data Types
+
+The extension can clear the following types of site data:
+- Cache
+- Cache Storage
+- Cookies
+- IndexedDB
+- Local Storage
+- Service Workers
 
 ## Permissions
 
 - `activeTab`: Used to get the URL of the current tab
 - `browsingData`: Used to clear the site data
-- `notifications`: Used to show a notification when clearing is complete
+- `storage`: Used to remember your preferences
 
 ## License
 
