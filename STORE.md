@@ -19,6 +19,7 @@ Key Features:
 ✓ Modern UI - Clean, intuitive interface with dark mode support
 ✓ Minimal Permissions - Only requests what's needed to function
 ✓ Privacy Focused - No tracking, no analytics, no data collection
+✓ 100% Open Source - Fully transparent code available on GitHub under MIT license
 
 Perfect For:
 
@@ -42,6 +43,18 @@ This extension does not collect, transmit, or store any of your browsing data. T
 
 Give your browser's privacy tools a boost with the precision and control of Clear Site Data!
 
+Support:
+If you encounter any issues or have suggestions:
+• Visit our GitHub repository: https://github.com/bulutfatih/clear-site-data
+• Submit an issue or feature request
+• Check our Privacy Policy: https://github.com/bulutfatih/clear-site-data/blob/master/PRIVACY.md
+
+Open Source:
+This extension is open source software under the MIT license. Feel free to contribute, modify, or distribute it as needed.
+
+Support the Developer:
+If you find this extension helpful, consider buying me a coffee to support future development: https://buymeacoffee.com/fatihbulut
+
 Category:
 Productivity
 
@@ -53,4 +66,4 @@ Screenshots Captions:
 4. Privacy Focus - Only affects the current site, not your entire browsing history
 
 Search Terms:
-privacy, cookies, cache, clear data, site data, browsing data, developer tools 
+privacy, cookies, cache, clear data, site data, browsing data, developer tools
