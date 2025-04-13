@@ -1,6 +1,6 @@
 {
   "name": "clear-site-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sleek Chrome extension that allows users to selectively clear site data for the current tab. Features a modern Vercel-inspired UI with dark mode support, customizable data clearing options, and user preference saving.",
   "scripts": {
     "build": "mkdir -p dist && cp manifest.json popup.html popup.js popup.css dist/ && cp -r icons dist/",

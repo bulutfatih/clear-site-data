@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Clear Site Data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly clear site data for the current tab. Control what to remove: cookies, cache, local storage, and more.",
   "action": {
     "default_popup": "popup.html",
