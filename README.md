@@ -2,6 +2,11 @@
 
 A Chrome extension that clears site data for the current tab with customizable options.
 
+<a href="https://chromewebstore.google.com/detail/clear-site-data/clanojgiikkagjnhcfimllpmdhooedja">
+  <img src="https://user-images.githubusercontent.com/22908993/166417152-f870bfbd-1770-4c28-b69d-a7303aebc9a6.png" alt="Chrome web store" />
+  <p>Chrome Web Store</p>
+</a>
+
 ## Features
 
 - Clears site data for the current tab only
@@ -30,6 +35,7 @@ A Chrome extension that clears site data for the current tab with customizable o
 ## Data Types
 
 The extension can clear the following types of site data:
+
 - Cache
 - Cache Storage
 - Cookies
@@ -45,4 +51,4 @@ The extension can clear the following types of site data:
 
 ## License
 
-MIT 
+MIT
